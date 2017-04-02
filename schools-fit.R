@@ -1,5 +1,5 @@
 library(rstan);
-source("schools.data.R");
+source("schools.data.R")
 
 fit <- stan("schools-3.stan",
             data=c("N","M","LRT",
